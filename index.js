@@ -155,3 +155,17 @@ const getExtention = (file) => {
     console.log(`.${ext}`)
 }
 // getExtention("app.js") 
+
+
+//14
+
+const absoluteNineteen = (num) => {
+    const nineteen = 19
+    absDifference = Math.abs(num - nineteen)
+    if (absDifference > 19) {
+        return absDifference * 3;
+    } else if (absDifference < 19) {
+        return absDifference;
+    }
+}
+//console.log(absoluteNineteen(50))
