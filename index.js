@@ -124,4 +124,10 @@ const isLeapYear = (year) => {
 }
 // isLeapYear(2000)
 
-
+//13.
+const getExtention = (file) => {
+    let fileName = file
+    let ext = fileName.split('.').pop()
+    console.log(`.${ext}`)
+}
+// getExtention("app.js") 
