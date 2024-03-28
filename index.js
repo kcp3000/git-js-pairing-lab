@@ -111,4 +111,17 @@ const largest = (numa, numb, numc) => {
 
 //12.
 
+const isLeapYear = (year) => {
+    if (Number.isInteger(year / 100) === true && Number.isInteger(year / 400) === true) {
+        return console.log(true);
+    } else if (Number.isInteger(year / 100) === false && Number.isInteger(year / 4) === true) {
+        return console.log(true);
+    }
+    else if (Number.isInteger(year / 100) === false && Number.isInteger(year / 400) === false) {
+        return console.log(false);
+    }
+    else { return console.log(false); }
+}
+// isLeapYear(2000)
+
 
