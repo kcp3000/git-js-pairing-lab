@@ -122,7 +122,7 @@ const printTime = () => {
     if (hour > 12) {
         hour = hour - 12;
         session = "pm";
-    }
+    };
 
     hour = (hour < 10) ? "0" + hour : hour;
     minute = (minute < 10) ? "0" + minute : minute;
@@ -169,3 +169,18 @@ const absoluteNineteen = (num) => {
     }
 }
 //console.log(absoluteNineteen(50))
+
+//15
+
+const switchLetters = (name) => {
+    middleMan = name.substring(1, name.length - 1);
+    if (name.length === 1) {
+        return name
+    } else if (name.length >= 2) {
+        return (name.charAt(name.length - 1)) + middleMan + name.charAt(0);
+    } else {
+        return ""
+    }
+
+}
+//console.log(switchLetters('hello world'))
