@@ -135,4 +135,23 @@ console.log(printTime())
 
 //12.
 
+const isLeapYear = (year) => {
+    if (Number.isInteger(year / 100) === true && Number.isInteger(year / 400) === true) {
+        return console.log(true);
+    } else if (Number.isInteger(year / 100) === false && Number.isInteger(year / 4) === true) {
+        return console.log(true);
+    }
+    else if (Number.isInteger(year / 100) === false && Number.isInteger(year / 400) === false) {
+        return console.log(false);
+    }
+    else { return console.log(false); }
+}
+// isLeapYear(2000)
 
+//13.
+const getExtention = (file) => {
+    let fileName = file
+    let ext = fileName.split('.').pop()
+    console.log(`.${ext}`)
+}
+// getExtention("app.js") 
