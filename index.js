@@ -109,6 +109,30 @@ const largest = (numa, numb, numc) => {
 
 //11.
 
+const printTime = () => {
+    let date = new Date();
+    let hour = date.getHours();
+    let minute = date.getMinutes();
+    let seconds = date.getSeconds();
+    let session = "am";
+
+    if (hour == 0) {
+        hour = 12
+    };
+    if (hour > 12) {
+        hour = hour - 12;
+        session = "pm";
+    }
+
+    hour = (hour < 10) ? "0" + hour : hour;
+    minute = (minute < 10) ? "0" + minute : minute;
+    seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+    let time = `${hour}:${minute}:${seconds} ${session}`;
+    return time;
+}
+console.log(printTime())
+
 //12.
 
 
