@@ -1,6 +1,6 @@
 //Code your solutions in this file
 
-//Question 1
+//1.
 
 const fiveToOneHundred = () => {
 
@@ -12,7 +12,17 @@ const fiveToOneHundred = () => {
 
 //console.log(fiveToOneHundred())
 
-//Question 3
+
+//2.
+
+const multiplesOfThree = () => {
+    for (let i = 3; i < 100; i += 3) {
+        console.log(i);
+    }
+};
+//multiplesOfThree()
+
+//3.
 
 const multiplesOfThreeOrFive = () => {
     for (let i = 1; i <= 33; i++) {
@@ -26,3 +36,12 @@ const multiplesOfThreeOrFive = () => {
 }
 
 //console.log(multiplesOfThreeOrFive())
+
+//4.
+
+const untilNum = (num) => {
+    for (let i = 1; i <= num; i++) {
+        console.log(i);
+    }
+};
+//untilNum(6)
