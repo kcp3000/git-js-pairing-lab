@@ -62,7 +62,9 @@ const add = (num1, num2) => {
 };
 //add(4, 4)
 
+
 //7
+
 
 const isNegative = (num) => {
     if (num < 0) {
@@ -73,17 +75,29 @@ const isNegative = (num) => {
 };
 //console.log(isNegative(1))
 
+
 //8
+
 
 const triangleArea = (base, height) => {
     return console.log((base * height) / 2);
 };
 //triangleArea(6, 8)
 
-9.
 
+//9.
 
-10.
+const bewtweenTwentyAndFourty = (num) => {
+    if (num > 20 && num < 40) {
+        return true
+    } else {
+        return false
+    }
+};
+//console.log(bewtweenTwentyAndFourty(40))
+
+//10.
+
 const largest = (numa, numb, numc) => {
     if (numa > numb && numa > numc) {
         return console.log(numa);
@@ -91,10 +105,10 @@ const largest = (numa, numb, numc) => {
         return console.log(numb);
     } else { return console.log(numc); };
 };
-// largest(41, 108, 86)
+//largest(41, 108, 86)
 
-11.
+//11.
 
-12.
+//12.
 
-13.
+
