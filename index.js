@@ -60,10 +60,9 @@ const add = (num1, num2) => {
         return console.log(num1 + num2);
     };
 };
-// add(4, 4)
+//add(4, 4)
 
 //7
-
 
 const isNegative = (num) => {
     if (num < 0) {
@@ -71,11 +70,17 @@ const isNegative = (num) => {
     } else {
         return false
     };
-}
-
+};
 //console.log(isNegative(1))
 
 //8
 
+const triangleArea = (base, height) => {
+    return console.log((base * height) / 2);
+};
+//triangleArea(6, 8)
+
+9.
 
 
+10.
