@@ -150,10 +150,10 @@ const isLeapYear = (year) => {
 
 //13.
 const getExtention = (file) => {
-    let fileName = file
-    let ext = fileName.split('.').pop()
-    console.log(`.${ext}`)
-}
+    let fileName = file;
+    let ext = fileName.split('.').pop();
+    console.log(`.${ext}`);
+};
 // getExtention("app.js") 
 
 
@@ -169,3 +169,15 @@ const absoluteNineteen = (num) => {
     }
 }
 //console.log(absoluteNineteen(50))
+
+//15.
+
+//16.
+const changeString = (string) => {
+    let letter = "";
+    for (let i = 0; i < string.length; i++) {
+        letter += String.fromCharCode(string.charCodeAt(i) + 1)
+    }
+    console.log(letter)
+}
+//changeString("abd")
