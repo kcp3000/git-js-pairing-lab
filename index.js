@@ -1,4 +1,5 @@
 //Code your solutions in this file
+Name: Kevin & Zhenni
 
 //1.
 
@@ -131,7 +132,7 @@ const printTime = () => {
     let time = `${hour}:${minute}:${seconds} ${session}`;
     return time;
 }
-console.log(printTime())
+//console.log(printTime())
 
 //12.
 
@@ -150,10 +151,10 @@ const isLeapYear = (year) => {
 
 //13.
 const getExtention = (file) => {
-    let fileName = file
-    let ext = fileName.split('.').pop()
-    console.log(`.${ext}`)
-}
+    let fileName = file;
+    let ext = fileName.split('.').pop();
+    console.log(`.${ext}`);
+};
 // getExtention("app.js") 
 
 
@@ -175,12 +176,23 @@ const absoluteNineteen = (num) => {
 const switchLetters = (name) => {
     middleMan = name.substring(1, name.length - 1);
     if (name.length === 1) {
-        return name
+        return name;
     } else if (name.length >= 2) {
         return (name.charAt(name.length - 1)) + middleMan + name.charAt(0);
     } else {
-        return ""
+        return "";
     }
 
 }
 //console.log(switchLetters('hello world'))
+
+//16.
+const changeString = (string) => {
+    let letter = "";
+    for (let i = 0; i < string.length; i++) {
+        letter += String.fromCharCode(string.charCodeAt(i) + 1);
+    }
+    console.log(letter);
+};
+//changeString("abd")
+
