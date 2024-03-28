@@ -93,9 +93,22 @@ const bewtweenTwentyAndFourty = (num) => {
     } else {
         return false
     }
-}
-
+};
 //console.log(bewtweenTwentyAndFourty(40))
 
 //10.
+
+const largest = (numa, numb, numc) => {
+    if (numa > numb && numa > numc) {
+        return console.log(numa);
+    } else if (numb > numa && numb > numc) {
+        return console.log(numb);
+    } else { return console.log(numc); };
+};
+//largest(41, 108, 86)
+
+//11.
+
+//12.
+
 
