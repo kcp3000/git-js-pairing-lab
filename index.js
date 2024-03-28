@@ -1,4 +1,5 @@
 //Code your solutions in this file
+Name: Kevin & Zhenni
 
 //1.
 
@@ -122,7 +123,7 @@ const printTime = () => {
     if (hour > 12) {
         hour = hour - 12;
         session = "pm";
-    }
+    };
 
     hour = (hour < 10) ? "0" + hour : hour;
     minute = (minute < 10) ? "0" + minute : minute;
@@ -131,7 +132,7 @@ const printTime = () => {
     let time = `${hour}:${minute}:${seconds} ${session}`;
     return time;
 }
-console.log(printTime())
+//console.log(printTime())
 
 //12.
 
@@ -170,14 +171,28 @@ const absoluteNineteen = (num) => {
 }
 //console.log(absoluteNineteen(50))
 
-//15.
+//15
+
+const switchLetters = (name) => {
+    middleMan = name.substring(1, name.length - 1);
+    if (name.length === 1) {
+        return name;
+    } else if (name.length >= 2) {
+        return (name.charAt(name.length - 1)) + middleMan + name.charAt(0);
+    } else {
+        return "";
+    }
+
+}
+//console.log(switchLetters('hello world'))
 
 //16.
 const changeString = (string) => {
     let letter = "";
     for (let i = 0; i < string.length; i++) {
-        letter += String.fromCharCode(string.charCodeAt(i) + 1)
+        letter += String.fromCharCode(string.charCodeAt(i) + 1);
     }
-    console.log(letter)
-}
+    console.log(letter);
+};
 //changeString("abd")
+
