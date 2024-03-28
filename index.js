@@ -67,3 +67,13 @@ const add = (num1, num2) => {
 
 
 //8
+
+const triangleArea = (base, height) => {
+    return console.log((base * height) / 2);
+};
+//triangleArea(6, 8)
+
+9.
+
+
+10.
