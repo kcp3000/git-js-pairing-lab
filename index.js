@@ -60,11 +60,18 @@ const add = (num1, num2) => {
         return console.log(num1 + num2);
     };
 };
-// add(4, 4)
+//add(4, 4)
 
 //7
 
-
+const isNegative = (num) => {
+    if (num < 0) {
+        return true
+    } else {
+        return false
+    };
+};
+//console.log(isNegative(1))
 
 //8
 
