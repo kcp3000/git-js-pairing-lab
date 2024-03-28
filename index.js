@@ -64,6 +64,7 @@ const add = (num1, num2) => {
 
 //7
 
+
 const isNegative = (num) => {
     if (num < 0) {
         return true
@@ -72,6 +73,9 @@ const isNegative = (num) => {
     };
 }
 
-console.log(isNegative(1))
+//console.log(isNegative(1))
 
 //8
+
+
+
