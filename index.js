@@ -33,7 +33,7 @@ const multiplesOfThreeOrFive = () => {
     }
     console.log(multiple.join(", "))
 };
-multiplesOfThreeOrFive()
+//multiplesOfThreeOrFive()
 
 //4.
 
