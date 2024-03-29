@@ -1,5 +1,5 @@
 //Code your solutions in this file
-Name: Kevin & Zhenni
+//Name: Kevin & Zhenni
 
 //1.
 
@@ -25,16 +25,15 @@ const multiplesOfThree = () => {
 //3.
 
 const multiplesOfThreeOrFive = () => {
-    for (let i = 1; i <= 33; i++) {
-        const multiple3 = i * 3
-        console.log(`${multiple3}`)
+    let multiple = []
+    for (let i = 1; i <= 100; i++) {
+        if (i % 3 == 0 || i % 5 == 0) {
+            multiple.push(i)
+        }
     }
-    for (let j = 1; j <= 20; j++) {
-        const multiple5 = j * 5
-        console.log(`${multiple5}`)
-    };
+    console.log(multiple.join(", "))
 };
-//console.log(multiplesOfThreeOrFive())
+multiplesOfThreeOrFive()
 
 //4.
 
